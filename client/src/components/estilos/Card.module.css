@@ -1,0 +1,63 @@
+.containerCard{
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.989);
+    min-width: 15%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 5px green;
+    width: 300px;
+    height: 350px;
+    
+    /* margin-right: 300px; */
+}
+
+.containerCard:hover{
+    box-shadow: 10px 5px 5px black;
+    cursor: pointer;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+
+.buttonX{
+    border: none;
+    background: none;
+    margin: 5px;
+    color: black;
+}
+
+.buttonX:hover{
+    cursor: pointer;
+    color:red;
+}
+
+img{
+    border-radius: 10px;
+    border: solid 5px green;
+    max-width: 250px;
+}
+
+h2{
+    color: white;
+    padding: 5px;
+    background-color: green;
+    margin-top: 5px;
+    font-size: small;
+    border: 0.1px solid white;
+}
+
+.infoH2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 5px;
+    
+    
+}

@@ -1,0 +1,35 @@
+.form{
+    background-color: rgba(137, 43, 226, 0.268);
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 50px;
+}
+
+input{
+    padding: 5px;
+    margin: 10px;
+}
+
+button{
+    background-color: blueviolet;
+    padding: 10px;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;
+    border-style: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+p{
+    color: brown;
+    font-size: small;
+
+}

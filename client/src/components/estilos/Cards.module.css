@@ -1,0 +1,36 @@
+.containerCards{
+    /* background-color: rgb(34, 235, 24,0.2);*/
+    
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+    overflow-y: scroll;
+    height: 800px;
+    /* border-radius: 20px 0px 0px  20px; */
+
+}
+
+.containerCards::-webkit-scrollbar{
+    background: white;
+    border-radius: 5px;
+    width: 15px;
+}
+.containerCards::-webkit-scrollbar-thumb{
+    background: yellow;
+    border-radius: 5px;
+    height: 5px;
+}
+
+/* @media screen and (max-width: 100px ) {
+    .containerCards{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+} */
+

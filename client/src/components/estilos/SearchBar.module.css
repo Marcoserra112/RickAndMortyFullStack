@@ -1,0 +1,28 @@
+.containerSearchBar{
+    /* background:red; */
+    display: flex ;
+    flex-direction: column;
+}
+
+.input{
+    border: solid gray 0.8px;
+    padding: 5px;
+    border-radius: 20px 10px 20px  10px;
+}
+
+.button{
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 20px 10px 20px  10px;
+    background-color: yellow;
+    border: solid grey 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+.button:hover{
+    color:red;
+    background: white;
+    cursor: pointer;
+    box-shadow: 5px 2px 2px black;
+    
+}
